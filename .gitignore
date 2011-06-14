@@ -1,0 +1,12 @@
+# common patterns for temporary and hidden files
+.*
+*~
+*.swp
+
+# where maven puts binaries
+*/target
+
+# unignore git-related files
+!.git*
+!.mailmap
+

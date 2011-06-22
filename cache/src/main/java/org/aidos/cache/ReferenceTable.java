@@ -7,7 +7,7 @@ import java.nio.ByteBuffer;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-import org.aidos.util.crypto.Djb2;
+import org.aidos.util.crypto.KRHash;
 
 
 /**
@@ -21,7 +21,7 @@ public class ReferenceTable {
 
 	/**
 	 * A flag which indicates this {@link ReferenceTable} contains
-	 * {@link Djb2} hashed identifiers.
+	 * {@link KRHash} hashed identifiers.
 	 */
 	public static final int FLAG_IDENTIFIERS = 0x01;
 
